@@ -1,13 +1,19 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
-/* 
-
-    You can write your own styles here...
+body{
+    //background-color: #d4d3f5;
+    background-image: url("https://cdn.player.one/sites/player.one/files/2020/03/09/mario-day-gamestop.jpg");
+    position:relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.menuPlayer{
+    width: 50rem;
+    height: 47rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    margin: auto;
+}
